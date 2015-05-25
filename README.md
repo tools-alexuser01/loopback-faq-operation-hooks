@@ -10,7 +10,7 @@ $ node .
 - [What operation hooks are available?](#what-operation-hooks-are-available)
 
 ##How do you use operation hooks?
-1. Determine which hook you would like to use ([`afterInitialize`](/common/models/coffee-shop.js), [`beforeValidate`](/common/models/coffee-shop.js), ...)
+1. Determine which hook you would like to use from http://docs.strongloop.com/display/public/LB/Operation+hooks
 2. Add the hook to your [`model.js` file](/common/models/coffee-shop.js)
 
 ##What operation hooks are available?

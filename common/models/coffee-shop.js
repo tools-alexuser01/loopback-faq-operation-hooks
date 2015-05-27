@@ -23,7 +23,7 @@ module.exports = function(CoffeeShop) {
   });
 
   CoffeeShop.observe('after delete', function(ctx, next) {
-    console.log('> after delete triggered:', ctx.Model.modelName, ctx.instance);
+    console.log('> after delete triggered:', ctx.Model.modelName, (ctx.instance || ctx.where));
     next();
   });
 
